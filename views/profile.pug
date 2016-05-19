@@ -1,0 +1,21 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+  body
+    h1 Pug - node supervisor
+    #form_box.container
+      if youAreUsingPug
+        form(action="/profile" method="post")
+          div
+            input(name="name")
+          div
+            input(name="age")
+          div
+            button(type="submit") 提交
+
+      else
+        p Get on it!
+      p.
+        Pug is a terse and simple templating language with a
+        strong focus on performance and powerful features.

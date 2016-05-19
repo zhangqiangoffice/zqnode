@@ -1,0 +1,14 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "test express app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zhang Qiang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
